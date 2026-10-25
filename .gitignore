@@ -1,0 +1,30 @@
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.swp
+*~
+
+# PostgreSQL client history and local credentials
+.psql_history
+.pgpass
+pgpass.conf
+
+# Database dumps and backups
+*.dump
+*.backup
+*.bak
+*.tar.gz
+
+# Local data directories
+pgdata/
+data/
+
+# Logs and environment files
+*.log
+.env
+.env.*
